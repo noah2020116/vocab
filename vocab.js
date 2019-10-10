@@ -1,6 +1,7 @@
+// Github changes
+
 /*
 To start a new project:
-
 In terminal:
 cd OneDrive/Programming
 mkdir *newProjectName*
@@ -10,7 +11,7 @@ npm init
 */
 
 // Variable
-// A value that can change
+// A value that can change (much like this line)
 
 let value = 10 // Declare variable
 console.log(value);
@@ -36,7 +37,7 @@ console.log(classmates[1]);
 console.log(classmates[2]);
 // For loops
 // Usually used to loop through lists
-for(let classmate of classmates){
+for (let classmate of classmates) {
   console.log(classmate)
 }
 
@@ -86,7 +87,7 @@ console.log(newFunction(1, 2));
 // Callback functions
 // A function that is called after another function has completed
 
-function dothething(a, b , callback) {
+function dothething(a, b, callback) {
   let c = a + b;
   callback(c);
 }
@@ -123,15 +124,6 @@ let newObject2 = {
 //console.log(objValue); // This will give us an error
 // ReferenceError: objValue is not defined
 console.log(newObject2.objValue);
-
-
-
-
-
-
-
-
-
 
 
 
